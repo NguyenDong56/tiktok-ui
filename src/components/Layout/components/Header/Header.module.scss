@@ -21,6 +21,10 @@
 .logo {
 }
 
+.search,
+.search-result {
+    width: 516px;
+}
 .search {
     position: relative;
     border: 1px solid transparent;
@@ -28,7 +32,6 @@
     height: var(--search-height);
     border-radius: var(--search-border-radius);
     min-width: 200px;
-    width: 516px;
     display: flex;
 
     &:hover {
@@ -92,4 +95,11 @@
         transform: translateY(-50%);
         background: rgba(22, 24, 35, 0.12);
     }
+}
+
+.search-label {
+    padding: 5px 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(22, 24, 35, 0.5);
 }
