@@ -12,7 +12,7 @@ function AccountItem() {
                 src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/a9db26229eba3cf96a5fab8d464e7310~c5_100x100.jpeg?x-expires=1696906800&x-signature=rp0jgQtZC%2FukhY9oiCn%2BZ9nN3sI%3D"
                 alt="Nhi"
             />
-            <div class={cx('info')}>
+            <div className={cx('info')}>
                 <p className={cx('username')}>
                     <span>Name account</span>
                     <FontAwesomeIcon className={cx("check")} icon={faCircleCheck} />
