@@ -38,3 +38,16 @@ a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
+
+//Custome Tippy ToolTip
+body {
+    .tippy-box {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        background: rgba(94, 84, 84, 0.92);
+    }
+
+    .tippy-arrow {
+        color: rgba(94, 84, 84, 0.92);
+    }
+}
